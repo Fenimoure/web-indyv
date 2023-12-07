@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: Montserrat, sans-serif;
     color: white;
-    background: #fee22f;
+    background: var(--bgYellow);
 }
 
 .blockContent {
@@ -19,8 +19,8 @@ body {
 .footer {
     padding: 20px 0;
     box-sizing: border-box;
-    border-top: 40px solid #da7a00;
-    background: #f79601;
+    border-top: 40px solid var(--darkOrange);
+    background: var(--bgOrange);
 }
 
 .footer__header {
@@ -37,21 +37,21 @@ body {
 
 .footer__contacts__button {
 
-    --shadow-color: #097558;
+    --shadow-color: var(--DarkGreen);
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     padding: 10px;
     font-size: 25px;
     font-weight: 800;
-    background-color: #0cab81;
+    background-color: var(--Green);
     box-shadow: 0 6px 0 var(--shadow-color);
     border-radius: 10px;
     transition: 0.2s;
     box-sizing: border-box;
 
     &:hover{
-        background-color: #3fbc9b;
-        --shadow-color: #3c927b;
+        background-color: var(--GreenHover);
+        --shadow-color: var(--DarkGreenHover);
     }
 }

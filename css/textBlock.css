@@ -24,7 +24,7 @@
 .textBlock__bannerTail {
     height: 56px;
     margin-top: -1px;
-    background-image: url("res/path43.svg");
+    background-image: url("../res/path43.svg");
     background-repeat: space no-repeat;
     background-position: top;
     background-size: contain;
