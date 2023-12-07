@@ -1,0 +1,57 @@
+.hoverable {
+    transition: transform 0.4s;
+    &:hover {
+        transform: scale(110%);
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background: #fee22f;
+}
+
+.blockContent {
+    padding: 0 20px;
+}
+
+.footer {
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-top: 40px solid #da7a00;
+    background: #f79601;
+}
+
+.footer__header {
+    font-size: 40px;
+    font-weight: 900;
+    width: 600px;
+    line-height: 0.8;
+    margin: 10px 0;
+}
+
+.footer_contacts {
+    width: 80%;
+}
+
+.footer__contacts__button {
+
+    --shadow-color: #097558;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #0cab81;
+    box-shadow: 0 6px 0 var(--shadow-color);
+    border-radius: 10px;
+    transition: 0.2s;
+    box-sizing: border-box;
+
+    &:hover{
+        background-color: #3fbc9b;
+        --shadow-color: #3c927b;
+    }
+}
