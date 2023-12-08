@@ -5,9 +5,21 @@
     padding: 10px;
 }
 
+/*Визначаються в media.css*/
+.textBlock--left {}
+
+.textBlock--justify {}
+
+.textBlock--right {}
+
 .textBlock__banner {
     background: var(--bannerRed);
     padding: 10px;
+}
+
+.textBlock__banner__text {
+    display: flex;
+    flex-direction: column;
 }
 
 .textBlock__banner__header {
