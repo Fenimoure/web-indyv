@@ -12,6 +12,7 @@
 
 .textBlock--right {}
 
+
 .textBlock__banner {
     background: var(--bannerRed);
     padding: 10px;
@@ -31,6 +32,10 @@
 .textBlock__banner__image {
     width: calc(100% + 20px);
     margin: -10px -10px 10px -10px;
+}
+
+.textBlock__banner__image_height {
+    height: 500px;
 }
 
 .textBlock__bannerTail {
